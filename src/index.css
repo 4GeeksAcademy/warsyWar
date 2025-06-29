@@ -1,0 +1,213 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.botoncito {
+  padding: 6px 12px;
+  width: fit-content;
+  margin-top: auto;
+  background-color: linear-gradient(to right, rgb(38, 0, 255), rgb(13, 8, 28), rgb(0, 0, 255));
+  text-align: center;
+}
+
+.caja {
+  background-color: aliceblue;
+  box-shadow: -5px 5px 8px rgba(227, 74, 74, 0.559);
+  height: 100%;
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(10%);
+}
+.cargando{
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  
+}
+
+.container-detalle {
+  color: goldenrod;
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+.fotico {
+  height: auto;
+  width: 100%;
+}
+
+.foto {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.footer {
+  color: #f8f8f8;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+div{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit);
+}
+h1{
+  justify-content: center;
+  text-align: center;
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  color: #f03355;
+  --_c:no-repeat radial-gradient(farthest-side,currentColor 92%,#0000);
+  background: 
+    var(--_c) 50% 0   /12px 12px,
+    var(--_c) 50% 100%/12px 12px,
+    var(--_c) 100% 50%/12px 12px,
+    var(--_c) 0    50%/12px 12px,
+    var(--_c) 50%  50%/12px 12px,
+    conic-gradient(from 90deg at 4px 4px,#0000 90deg,currentColor 0)
+    -4px -4px/calc(50% + 2px) calc(50% + 2px);
+  animation: l8 1s infinite linear;
+}
+@keyframes l8 {to{transform: rotate(.5turn)}}
+
+.navbar {
+  background-color: black;
+  color: antiquewhite;
+}
+.navbar-brand{
+  color: #f8f8f8;
+}
+
+.nombre {
+  font-size: 18px;
+  margin: 12px 0 8px;
+}
+
+.personaj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.planet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.tarjetaC {
+  background-color: #140000;
+  border-radius: 12px;
+  color: gold;
+  box-shadow: 5px 5px 6px #ffb3b3, -5px -5px 16px #351414;
+  box-sizing: border-box;
+  width: 220px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  transition: 1s;
+}
+
+.tarjetaC:hover {
+  cursor: crosshair;
+  width: 270px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.tarjetaP {
+  background-color: #001600;
+  border-radius: 12px;
+  color: #f8f8f8;
+  box-shadow: 5px 5px 6px #50fd5c, -5px -5px 16px #004d0a;
+  width: 220px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+  padding-bottom: 50px;
+}
+
+.tarjetaP:hover {
+  cursor: crosshair;
+  width: 270px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.tarjetaV {
+  background-color: #2e0433;
+  border-radius: 12px;
+  color: #f8f8f8;
+  box-shadow: 5px 5px 6px #fbdfff, -5px -5px 16px #37004d;
+  width: 220px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+}
+
+.tarjetaV:hover {
+  cursor: crosshair;
+  width: 270px;
+  opacity: 1;
+  filter: contrast(150%);
+}
+
+.textico {
+  color: #001600;
+  gap: 10px;
+  justify-content: center;
+}
+
+.Titulo {
+  text-align: center;
+  font-size: 80px;
+  color: gold;
+  font-family: 'Star Wars', sans-serif;
+  transition: 10s;
+  justify-content: center;
+}
+.Titulo :hover{
+  text-align: center;
+  font-size: 10px;
+  color: gold;
+  font-family: 'Star Wars', sans-serif;
+}
+
+.vehicul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+}
